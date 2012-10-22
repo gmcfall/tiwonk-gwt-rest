@@ -67,7 +67,7 @@ public class PersonResource {
 
   @PUT
   @Path("{guid}")
-  @Consumes("application/vnd.example.v1.Person+json")
+  @Consumes("application/vnd.example.v1.Person+json; charset=UTF-8")
   public void put(
     Person person, 
     @PathParam("guid") String guid, 
