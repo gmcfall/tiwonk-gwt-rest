@@ -9,4 +9,4 @@ Here's the approach in a nutshell:
 2. Define classes for your REST resources using JSNI.
 3. Use GWT.create(YourInterface.class) to create a GWT client for your REST service.
 
-The [example project] (../tiwonk-gwt-rest-example) shows how this works in practice.
+The [example project] (../../tree/master/tiwonk-gwt-rest-example) shows how this works in practice.
