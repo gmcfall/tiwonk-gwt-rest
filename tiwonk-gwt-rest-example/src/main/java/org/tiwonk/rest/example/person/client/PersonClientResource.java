@@ -26,19 +26,13 @@ import org.tiwonk.gwt.rest.client.ClientResource;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 
 public interface PersonClientResource extends ClientResource {
-//  
-//  @POST
-//  @Consumes("application/vnd.example.v1.Person+json")
-//  void create1(Person person, AsyncCallback<String> callback);
+
   
   @POST
   @Consumes("application/vnd.example.v1.Person+json")
   @Produces("application/vnd.example.v1.PersonRef+json")
   void create(Person person, AsyncCallback<Person> callback);
   
-//  @POST
-//  @Consumes("application/vnd.example.v1.Person+json")
-//  void create3(Person person, AsyncCallback<Void> callback);
   
   @GET
   @Produces("application/vnd.example.v1.Person+json")
